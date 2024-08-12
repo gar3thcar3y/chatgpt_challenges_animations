@@ -1,0 +1,28 @@
+#ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: bounce 2s infinite linear ;
+    transition: linear;
+}
+
+@keyframes bounce {
+    0% {
+        translate: 0 200%;
+        background-color: blue;
+        transition: linear;
+    }
+
+    50% {
+        translate: 0 0;
+        background-color: darkblue;
+        transition: linear;
+    }
+
+    100% {
+        translate: 0 200%;
+        background-color: blue;
+        transition: linear;
+    }
+}

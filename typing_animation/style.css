@@ -1,11 +1,6 @@
 h1 {
     overflow: hidden;
     white-space: nowrap;
-    width: 0;
-    animation: typing;
-    animation-duration: 3s;
-    animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
   }
   
 @keyframes typing {

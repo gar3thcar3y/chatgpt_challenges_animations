@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slidein {
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    right: 1;
+    background-color: black;
+    translate: -100px 0;
+    transition: all 2s;
+}
+
+.slidein.active {
+    background-color: blue;
+    translate: -0 0;
+}
+
+#button {
+    width: 500px;
+}
